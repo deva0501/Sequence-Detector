@@ -1,33 +1,42 @@
 # Sequence-Detector
-1.Aim
+# 1.Aim
+
 To design and simulate a sequence detector using both Moore and Mealy state machine models in Verilog HDL, and verify their functionality through a testbench using the Vivado 2023.1 simulation environment. The objective is to detect a specific sequence of bits (e.g., 1011) and compare the Moore and Mealy designs.
 
-2.Apparatus Required:
+# 2.Apparatus Required:
+
 Vivado 2023.1 or equivalent Verilog simulation tool.
 Computer system with a suitable operating system.
 
-3.Procedure:
+# 3.Procedure:
+
 Launch Vivado 2023.1:
 Open Vivado and create a new project.
 
-4.Write the Verilog Code for Sequence Detector (Moore and Mealy FSM):
+# 4.Write the Verilog Code for Sequence Detector (Moore and Mealy FSM):
 
-Design two Verilog modules:
+# Design two Verilog modules:
+
 one for a Moore FSM and another for a Mealy FSM to detect a sequence such as 1011.
 
-Create the Testbench:
+# Create the Testbench:
+
 Write a testbench to apply input sequences and verify the output of both FSM designs.
 
-Add the Verilog Files:
+# Add the Verilog Files:
+
 Add the Verilog code for both FSMs and the testbench to the Vivado project.
 
-Run Simulation:
+# Run Simulation:
+
 Run the simulation and observe the output to check if the sequence is detected correctly.
 
-Observe the Waveforms:
+# Observe the Waveforms:
+
 Analyze the waveform to ensure both the Moore and Mealy machines detect the sequence as expected.
 
-Save and Document Results:
+# Save and Document Results:
+
 Capture the waveforms and include the results in the final report.
 
 Verilog Code for Sequence Detector Using Moore FSM:
